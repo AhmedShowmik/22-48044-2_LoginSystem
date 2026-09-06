@@ -13,11 +13,7 @@ namespace LoginSystem
             this.password = password;
         }
 
-        public bool Login(string enteredUsername, string enteredPassword)
-        {
-            return username == enteredUsername && password == enteredPassword;
-        }
-
+       
         public void ShowUserInfo()
         {
             Console.WriteLine("User: " + username);
